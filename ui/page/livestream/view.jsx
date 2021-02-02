@@ -133,7 +133,7 @@ export default function LivestreamPage(props: Props) {
   }, [doSetPlayingUri]);
 
   return (
-    <Page className="file-page" filePage>
+    <Page className="file-page" filePage livestream>
       {isFetching && (
         <div className="main--empty">
           <Spinner />
